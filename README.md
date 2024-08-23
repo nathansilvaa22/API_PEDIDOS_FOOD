@@ -21,7 +21,6 @@ Este projeto é uma API para gerenciar pedidos de comida, que também oferece en
 
 - **GET /orders**: Retorna todos os pedidos.
 - **POST /orders**: Cria um novo pedido (gera um código único automaticamente).
-- **PUT /orders/:id**: Atualiza um pedido existente.
 - **DELETE /orders/:code**: Deleta um pedido a partir do codigo do mesmo que é gerado de forma automatica para cade pedido.
 **DELETE /orders/:name**: Deleta o pedido a partir do nome da pessoa que fez o pedido
 
