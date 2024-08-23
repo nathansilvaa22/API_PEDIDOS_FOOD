@@ -4,11 +4,6 @@ const controll = require("./controll/controll");
 const router = Router();
 
 
-router.get('/users/login', (req, res) => {
-    res.status(200).json({ msg: "Email" });
-});
-
-
 router.get("/categories/foods", controll.mostrarCategoriesProducts);
 
 router.get("/orders", controll.mostraPedido);
