@@ -13,7 +13,7 @@ Este projeto é uma API para gerenciar pedidos de comida, que também oferece en
 - **Node.js**: Plataforma de desenvolvimento.
 - **Express.js**: Framework web para Node.js.
 - **MySQL/MongoDB**: Banco de dados para armazenamento de pedidos e categorias.
-- **JWT**: Autenticação via token.
+
 
 ## Endpoints
 
